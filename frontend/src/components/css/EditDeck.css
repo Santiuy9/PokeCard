@@ -1,0 +1,50 @@
+.card-list-container {
+    display: flex;
+}
+
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+  
+.card-item, .deck-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    cursor: grab;
+}
+
+.card-item img {
+    width: 150px;
+}
+  
+.deck-drop-zone {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px dashed #007bff;
+    border-radius: 8px;
+    text-align: center;
+    min-height: 150px;
+    background-color: #e9f7ff;
+}
+
+.deck-drop-zone img {
+    width: 150px;
+}
+  
+.remove-drop-zone {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px dashed #ff4d4f;
+    border-radius: 8px;
+    text-align: center;
+    min-height: 150px;
+    background-color: #ffeaea;
+}
+  
+.remove-drop-zone p {
+    color: #ff4d4f;
+}
+  
